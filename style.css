@@ -1,0 +1,118 @@
+body{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: rgb(255, 254, 254);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.conteudo-esquerdo{
+    position: absolute;
+    width: 45%;
+    left: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 550px;
+}
+
+.conteudo-esquerdo img{
+    height: 550px;
+}
+
+.conteudo-direito{
+    position: absolute;
+    width: 43%;
+    right: 0px;
+    margin-top: 30px;
+}
+
+.main-form{
+    margin-top: 10%;
+    background: rgb(255, 254, 254);
+    border: solid 1px rgb(197, 197, 197);
+    border-radius: 5px;
+}
+
+
+.main-form h1{
+    background: url(./imagens/insta.png) no-repeat  top center;
+    text-indent: -1000000px;
+    margin-top: 25px;
+    background-size: 200px 90px;
+    height: 90px;
+}
+
+.inputs{
+    padding-left: 50px;
+}
+
+.inputs input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    background: rgb(243, 243, 243);
+    border-radius: 2px;
+    margin-top: 7px;
+}
+
+.inputs button{
+    width: 87%;
+    padding: 5px;
+    margin-left: 0.092%;
+    border: 1px solid rgb(207, 207, 207);
+    background: rgb(54, 158, 206);
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.ou{
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.face{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.face a{
+    margin-left: 32%;
+    text-decoration: none;
+    color: rgb(54, 54, 139);
+    background-size: 20px 20px;
+    margin-bottom: 10px;
+}
+
+#esqueceu{
+    color: rgb(88, 87, 87);
+    margin-left: 35%;  
+    font-size: 0.9em;
+}
+
+.cadastre{
+    border: solid 1px  rgb(197, 197, 197);
+    margin-top: 5%;
+    padding: 6%;
+    border-radius: 5px;
+}
+
+.cadastre p{
+    text-align: center;
+}
+
+.cadastre a{
+    text-decoration: none;
+    color: rgb(74, 74, 218);
+
+}
